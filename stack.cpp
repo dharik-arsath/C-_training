@@ -1,37 +1,3 @@
-// #include<iostream>
-// #include <chrono>
-// #include<vector>
-// using namespace std::chrono;
-// using namespace std;
-
-// int list_of_primes(const int n){
-//     int i, j, index=0;
-//     vector<int> primes;
-//     primes.push_back(2);
-//     for(i = 3; i <= n; i+=2){
-//         j = 3;
-//         while(j < i && i % j != 0)
-//           j += 2;
-        
-//         if(i == j){
-//             primes.push_back(i);
-//         }
-//     }
-
-//     return size(primes);
-// }
-
-// int main(){
-//     auto start = high_resolution_clock::now();
-//     cout<<list_of_primes(100000);
-//     auto stop = high_resolution_clock::now();
-//     auto duration = duration_cast<microseconds>(stop - start);
-//     cout<<endl<<"Execution time is : ";
-//     cout << duration.count() << endl;
-// }
-
-
-
 #include<iostream>
 #include<vector>
 
